@@ -1,0 +1,68 @@
+/* Styles for entire page */
+body { 
+    font-family: 'Orbitron', sans-serif;
+    background-color: slategray;
+}
+
+h1 {
+    text-align: center;
+    
+
+}
+
+#title-name {
+    width: 50%;
+    font-size: 32px;
+    
+}
+
+#title-name > p {
+    font-size: 24px;
+    margin: 3em;
+}
+
+#content-boxes {
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+    padding: 1em;
+
+}
+p {
+    font-size: 60px;
+    text-emphasis: 1em;
+    align-self: center;
+    padding:0;
+    margin:0;
+}
+button {
+    margin: auto;
+
+   
+}
+
+#input-field {
+    background-color: rgb(45, 158, 173);
+    display: flex;
+    
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 1em;
+    padding: 2em;
+    color:white;
+}
+
+#result-field {
+    background-color: rgb(197, 105, 52);
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    flex: 50%;
+    padding: 1em;
+    color:wheat;
+}
+
+body {
+    display: flex;
+}
+
