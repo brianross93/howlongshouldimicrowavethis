@@ -16,14 +16,25 @@
 </section>
 <div id="content-boxes">
 <section id='input-field'>
-    <label>Seconds of Recommended Cook Time</label>
-    <input type='text' id='rec-time'>
+    <div id="min-sec-tit">
+    <label>Mins :</label>
+    <label>Secs</label>
+</div>
+    <div id='mins-secs' >
+        
+    <input type='text' id='rec-mins' size="2"> 
+    <p id="colon"> :  </p>
+    <input type='text' id='rec-secs' size='2'>
+</div>
+<br>
+<div id="other-content-boxes">
     <label>Recommended Cooking Wattage</label>
-    <input type='text' id='rec-wat'>
+    <input type='text' id='rec-wat' size="1">
     <label>Wattage of Your Microwave</label>
-    <input type= 'text' id='user-wat'>
+    <input type= 'text' id='user-wat' size="2">
     <br>
     <button type='submit'>Submit</button>
+</div>
 </section>
 <section id='result-field'>
     <h1>Your Cook Time Is</h1>
