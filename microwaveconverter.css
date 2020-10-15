@@ -19,6 +19,8 @@ h1 {
 #title-name > p {
     font-size: 24px;
     margin: 3em;
+    font-weight: bolder;
+    color: rgb(233, 222, 215)
 }
 
 #content-boxes {
@@ -64,9 +66,7 @@ button {
     height: 35px;
     font-size:18px;
     padding: 5px;
-    
-   
-    
+
     
 }
 

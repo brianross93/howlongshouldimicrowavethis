@@ -19,12 +19,12 @@ function calc_Time() {
     //ENERGY = WATTAGE * SECONDS
     //SECONDS = ENERGY/WATTAGE
     //First convert minutes into seconds and then use seconds to perform math calc
+    
+
     let convMinTime = recMins.value * 60
-    console.log(convMinTime)
     let convSecTime = parseInt(recSec.value)
-    console.log(convSecTime)
     let convCookTime = convMinTime + convSecTime
-    console.log(convCookTime)
+
     
     let kilojoules = recWat.value * parseInt(convCookTime)
     
@@ -45,6 +45,7 @@ function calc_Time() {
     else {
     displayArea.innerHTML = recTimeMins.toFixed() + ' :' + recTimeSecs.toFixed() 
     }
+
 
 
 }
